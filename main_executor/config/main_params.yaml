@@ -1,0 +1,22 @@
+launch: #起動パラメータ
+  ros__parameters:
+    can: false
+
+cybergear:
+  socketcan_interface_node:
+    ros__parameters:
+      if_name : "_candleLight"
+
+cybergear_interface_node:
+  ros__parameters:
+    interval_ms : 10
+    master_id : 0x00
+    target_id : 0x7F
+
+    gear_rate : 1.0
+    reverse_flag : false
+    # 制御対象の最小・最大位置[deg]
+    pos_limit_min : -30.0
+    pos_limit_max : 30.0
+    # 制御対象の最大速度[deg/s] <-サイバーギアの限界速度以下に設定する
+    limit_speed : 60.0

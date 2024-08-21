@@ -1,0 +1,27 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/kazuma/colcon_ws/install/roboteq_driver/include/**",
+        "/home/kazuma/colcon_ws/install/cybergear_interface/include/**",
+        "/home/kazuma/colcon_ws/install/controller/include/**",
+        "/home/kazuma/colcon_ws/install/utilities/include/**",
+        "/home/kazuma/colcon_ws/install/socketcan_interface/include/**",
+        "/home/kazuma/colcon_ws/install/socketcan_interface_msg/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/kazuma/formula_ws/src/socketcan/socketcan_interface/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

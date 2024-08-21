@@ -1,0 +1,35 @@
+{
+    "ros.distro": "humble",
+    "python.autoComplete.extraPaths": [
+        "/home/kazuma/honda_ws/build/simulator",
+        "/home/kazuma/honda_ws/install/simulator/lib/python3.10/site-packages",
+        "/home/kazuma/honda_ws/build/vehicle",
+        "/home/kazuma/honda_ws/install/vehicle/lib/python3.10/site-packages",
+        "/home/kazuma/honda_ws/install/vectornav_msgs/local/lib/python3.10/dist-packages",
+        "/home/kazuma/honda_ws/build/common_python",
+        "/home/kazuma/honda_ws/install/common_python/lib/python3.10/site-packages",
+        "/home/kazuma/formula_ws/build/zedx_image_publisher",
+        "/home/kazuma/formula_ws/install/zedx_image_publisher/lib/python3.10/site-packages",
+        "/home/kazuma/formula_ws/install/vectornav_msgs/local/lib/python3.10/dist-packages",
+        "/home/kazuma/formula_ws/install/socketcan_interface_msg/local/lib/python3.10/dist-packages",
+        "/home/kazuma/colcon_ws/install/socketcan_interface_msg/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/kazuma/honda_ws/build/simulator",
+        "/home/kazuma/honda_ws/install/simulator/lib/python3.10/site-packages",
+        "/home/kazuma/honda_ws/build/vehicle",
+        "/home/kazuma/honda_ws/install/vehicle/lib/python3.10/site-packages",
+        "/home/kazuma/honda_ws/install/vectornav_msgs/local/lib/python3.10/dist-packages",
+        "/home/kazuma/honda_ws/build/common_python",
+        "/home/kazuma/honda_ws/install/common_python/lib/python3.10/site-packages",
+        "/home/kazuma/formula_ws/build/zedx_image_publisher",
+        "/home/kazuma/formula_ws/install/zedx_image_publisher/lib/python3.10/site-packages",
+        "/home/kazuma/formula_ws/install/vectornav_msgs/local/lib/python3.10/dist-packages",
+        "/home/kazuma/formula_ws/install/socketcan_interface_msg/local/lib/python3.10/dist-packages",
+        "/home/kazuma/colcon_ws/install/socketcan_interface_msg/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}
