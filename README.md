@@ -45,8 +45,10 @@ amazonで3千円ほど
 ### インタフェースの名前を変更する
 - https://unix.stackexchange.com/questions/560656/renaming-can-interfaces
 
-`systemd-networkd`を使用した方法．  
-`ID_SERIAL_SHORT`で一意にマッチさせることができる．main_params.yamlにその名前に変更させること．
+`systemd-networkd`を使用した方法．`ID_SERIAL_SHORT`で一意にマッチさせることができる．  
+
+| 注意  
+リンクする名前は`canhoge`とし，main_params.yamlのインタフェース名は`hoge`の部分だけ記載すること．
 
 ### WSL環境で開発する場合は，
 - [WSLでCAN-USBを使う](https://blog.hcmos.jp/posts/can_with_wsl)
