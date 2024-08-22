@@ -19,13 +19,13 @@ $ ros2 launch main_executor main_exec.launch.py
 受け取ったトピックからcybergear用の命令を生成し，ROS2内のSocketCANのメッセージを出版する．
 
 #### 購読トピック
-- "cybergear/pos"：std_msgs::msg::Float64  
+- cybergear/pos：std_msgs::msg::Float64  
 目標位置
-- "cybergear/reset"：std_msgs::msg::Empty  
+- cybergear/reset：std_msgs::msg::Empty  
 cybergearの零点設定
-- "stop"：std_msgs::msg::Empty  
+- stop：std_msgs::msg::Empty  
 停止命令(再起動するまで命令を受け付けない)
--  "restart"：std_msgs::msg::Empty  
+- restart：std_msgs::msg::Empty  
 再起動命令
 
 #### 出版トピック
@@ -42,7 +42,13 @@ Classic CANのROS2内でのメッセージ型．
 - [SH-C30A](https://www.deshide.com/product-details.html?pid=384242&_t=1671089557)  
 amazonで3千円ほど
 
-WSL環境で開発する場合は，
+### インタフェースの名前を変更する
+- https://unix.stackexchange.com/questions/560656/renaming-can-interfaces
+
+`systemd-networkd`を使用した方法．  
+`ID_SERIAL_SHORT`で一意にマッチさせることができる．main_params.yamlにその名前に変更させること．
+
+### WSL環境で開発する場合は，
 - [WSLでCAN-USBを使う](https://blog.hcmos.jp/posts/can_with_wsl)
 
 ## 参考
